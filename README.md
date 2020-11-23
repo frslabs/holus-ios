@@ -90,8 +90,6 @@ class ViewController: UIViewController,HolusDelegate {
     func holusFailureResponse(controller: RecordingNavigationViewController, didFailWithError error: String) {
         let error = error
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
   
 }
 ```
@@ -102,12 +100,12 @@ class ViewController: UIViewController,HolusDelegate {
     // ...
     
     override func viewDidAppear(_ animated: Bool) {
-         let recordingVC = RecordingNavigationViewController(delegate: self)
-            recordingVC.licenceKey = "LICENSE_KEY"
-            recordingVC.baseURL = BASE_URL
-            recordingVC.referenceID = "REFERENCE_ID"
-            recordingVC.serverHeader = "HEADER"
-            present(recordingVC, animated: true)
+        let recordingVC = RecordingNavigationViewController(delegate: self)
+        recordingVC.licenceKey = "LICENSE_KEY"
+        recordingVC.baseURL = BASE_URL
+        recordingVC.referenceID = "REFERENCE_ID"
+        recordingVC.serverHeader = "HEADER"
+        present(recordingVC, animated: true)
     }
     
     // ...    
