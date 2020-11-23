@@ -78,7 +78,7 @@ import Holus
 
 ### Swift
 
-1. Initialize the input parameters and import delegate OCRDelegate
+1. Initialize the input parameters and import delegate HolusDelegate
 
 ```swift
 class ViewController: UIViewController,HolusDelegate {
