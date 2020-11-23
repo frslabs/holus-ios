@@ -14,7 +14,7 @@ The Holus SDK comes with a video recording screen to capture the identity docume
 
 ## Prerequisite
 
-***NOTE : Encryption of CAPTUS SDK Result is under development***
+***NOTE : Encryption of HOLUS SDK Result is under development***
 
 You will need a valid license and Netrc credentials to use the Holus SDK, which can be obtained by contacting `support@frslabs.com` . 
 
